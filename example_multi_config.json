@@ -1,0 +1,28 @@
+{
+  "type": "interpreter-config",
+  "configurations": [
+    {
+      "settings": [
+        {
+          "driverOptions": {
+            "host": "hub.browserstack.com",
+            "port": 80
+          },
+          "browserOptions": {
+            "browserName": "firefox",
+            "username": "<BROWSERSTACK_USERNAME>",
+            "accessKey": "<BROWSWERSTACK_API_KEY>"
+          }
+        },
+        {
+          "browserOptions": {
+            "browserName": "firefox"
+          }
+        }
+      ],
+      "scripts": [
+        "tests/*"
+      ]
+    }
+  ]
+}

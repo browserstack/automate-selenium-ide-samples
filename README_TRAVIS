@@ -1,0 +1,5 @@
+1. Use example.travis.yml and change BROWSERSTACK_USERNAME
+2. To add browserstack access key. 
+2.1 Do: gem install travis
+2.2 Do: travis encrypt BROWSERSTACK_ACCESS_KEY=<BROWSERSTACK_ACCESS_KEY>
+2.3 Put your encrypted ACCESS_KEY/API_KEY in travis.yml

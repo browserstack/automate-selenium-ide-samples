@@ -1,0 +1,7 @@
+language: node_js
+script:
+    - "./interpreter.js examples/example_travis_config.json"
+env:
+    global:
+        - BROWSERSTACK_USERNAME='<username>'
+        - secure: {{ENCRYPTED_BROWSERSTACK_ACCESS_KEY}}
