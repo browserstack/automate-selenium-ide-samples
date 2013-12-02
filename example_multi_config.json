@@ -10,8 +10,9 @@
           },
           "browserOptions": {
             "browserName": "firefox",
-            "username": "<BROWSERSTACK_USERNAME>",
-            "accessKey": "<BROWSWERSTACK_API_KEY>"
+						"os": "Windows",
+            "browserstack.user": "<username>",
+            "browserstack.key": "<access-key>"
           }
         },
         {
